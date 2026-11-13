@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /312-2/
+Disallow: /_original-front/
+
+Sitemap: https://greatchoice.com/sitemap.xml
