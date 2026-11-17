@@ -16,7 +16,7 @@
     document.head.appendChild(link);
   }
 
-  var shield = u("media/hireacomputerexpert.com/wp-content/uploads/2026/06/cropped-cropped-GTC-Sheild-HD-V2-192x192.png");
+  var shield = u("media/cropped-cropped-GTC-Sheild-HD-V2-192x192.png");
   var html = ''
     + '<footer class="site-footer">'
     + '<div class="wrap site-foot">'
@@ -45,6 +45,7 @@
     + '</div>'
     + '<div>'
     + '<a href="' + u("it-services/cybersecurity/index.html") + '">Cybersecurity</a>'
+    + '<a href="' + u("it-services/security-systems/index.html") + '">Security systems</a>'
     + '<a href="' + u("it-services/communication/index.html") + '">Communication</a>'
     + '<a href="' + u("it-services/digital-marketing/index.html") + '">Marketing</a>'
     + '<a href="' + u("#about") + '">Why Greatchoice</a>'
