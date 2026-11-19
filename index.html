@@ -65,11 +65,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       font-size: 13px;
       letter-spacing: 0.04em;
     }
-    .topbar .wrap {
+    .topbar .wide {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       gap: 16px;
       padding: 8px 0;
+    }
+    .topbar-actions {
+      display: flex;
+      align-items: center;
+      gap: 18px;
     }
     .topbar a { color: var(--text); text-decoration: none; font-weight: 600; }
 
@@ -116,15 +122,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .nav-links {
       display: flex;
       align-items: center;
-      gap: 26px;
+      gap: 18px;
     }
     .nav-links a {
       text-decoration: none;
-      color: var(--text);
+      color: var(--blue-light);
       font-size: 15px;
       font-weight: 600;
+      white-space: nowrap;
     }
-    .nav-links a:hover { color: var(--blue-light); }
+    .nav-links a:hover { color: var(--gold); }
     .nav-toggle {
       display: none;
       width: 44px;
@@ -818,14 +825,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         background: #061428;
         border-bottom: 1px solid var(--line);
       }
-      .nav-links.is-open { display: flex; }
+      .nav-links.is-open {
+        display: flex;
+        max-height: calc(100vh - 130px);
+        overflow-y: auto;
+      }
       .nav-links a { padding: 12px 0; border-bottom: 1px solid var(--line); }
       .nav { position: relative; }
       .tour-frame { width: 100%; }
     }
     @media (max-width: 640px) {
       .wrap { width: min(var(--max), calc(100% - 28px)); }
-      .topbar .wrap { flex-direction: column; gap: 2px; }
+      .topbar .wide { flex-direction: column; align-items: flex-start; gap: 2px; }
       .industry-grid, .watch, .proof, .service-grid, .expect-grid { grid-template-columns: 1fr; }
       .tour-frame { width: 70%; }
       .tour-frame iframe { height: 420px; }
@@ -856,14 +867,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
   <div class="topbar">
-    <div class="wrap">
+    <div class="wide">
       <span>317 NE 36th Ave, Suite 3, Ocala, FL 34470</span>
-      <a href="tel:+13523013016">352-301-3016</a>
+      <span class="topbar-actions">
+        <a href="tel:+13523013016">352-301-3016</a>
+        <a href="https://my.splashtop.com/sos/packages/download/4HXPS4HL25KT" target="_blank" rel="noopener">Remote Support</a>
+      </span>
     </div>
   </div>
 
   <header class="site">
-    <div class="wrap nav">
+    <div class="wide nav">
       <a class="brand" href="index.html">
         <img src="media/cropped-cropped-GTC-Sheild-HD-V2-192x192.png" alt="Greatchoice Technologies">
         <span>
@@ -875,11 +889,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <span></span>
       </button>
       <nav class="nav-links" id="site-nav">
-        <a href="#solutions">Solutions</a>
-        <a href="#industries">Industries</a>
-        <a href="#about">About</a>
-        <a href="service-areas/index.html">Service areas</a>
-        <a class="btn btn-gold" href="#visit">Free technology analysis</a>
+        <a href="it-services/managed-it/index.html">Managed IT</a>
+        <a href="it-services/cybersecurity/index.html">Cybersecurity</a>
+        <a href="it-services/communication/index.html">Communications</a>
+        <a href="it-services/cloud-solutions/index.html">M365</a>
+        <a href="it-services/digital-marketing/index.html">Digital Marketing</a>
+        <a href="it-services/360-virtual-tours/index.html">360 Tours</a>
+        <a href="it-services/security-systems/index.html">Security Systems</a>
       </nav>
     </div>
   </header>
