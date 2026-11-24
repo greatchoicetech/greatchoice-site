@@ -6,10 +6,7 @@
 
   function u(path) {
     if (path.charAt(0) === "#") return "/" + path;
-    var clean = path.replace(/index\.html$/, "");
-    if (!clean) return "/";
-    if (clean.charAt(clean.length - 1) !== "/") clean += "/";
-    return "/" + clean.replace(/^\//, "");
+    return "/" + path.replace(/(^|\/)index\.html$/, "$1");
   }
 
   if (!document.querySelector('link[href$="footer.css"]')) {
