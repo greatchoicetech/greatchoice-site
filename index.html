@@ -400,18 +400,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .quiz-cta:hover { background: #5aa4ff; filter: none; }
     .different {
       display: grid;
-      grid-template-columns: 1.05fr 0.95fr;
-      gap: 42px;
-      align-items: start;
+      grid-template-columns: minmax(240px, 340px) minmax(0, 1fr);
+      gap: 48px;
+      align-items: center;
     }
     .video-frame {
       position: relative;
-      margin-top: 18px;
-      padding-top: 56.25%;
-      border-radius: 20px;
+      width: 100%;
+      aspect-ratio: 9 / 16;
+      margin-top: 8px;
+      border-radius: 22px;
       overflow: hidden;
       border: 1px solid var(--line);
       background: #071427;
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
     }
     .video-frame iframe {
       position: absolute;
@@ -727,6 +729,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       padding: 6px 10px;
       flex: none;
     }
+    .quote-link {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      width: 100%;
+      min-width: 0;
+      color: inherit;
+      text-decoration: none;
+    }
+    .quote-link:hover strong,
+    .quote-link:focus-visible strong { color: var(--gold); }
     .quote-controls {
       display: flex;
       align-items: center;
@@ -827,6 +840,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
     @media (max-width: 980px) {
       .hero-grid, .split, .visit, .steps, .different { grid-template-columns: 1fr; }
+      .video-frame { width: min(320px, 100%); margin-inline: auto; }
       .service-grid, .expect-grid { grid-template-columns: 1fr 1fr; }
       .industry-grid, .proof { grid-template-columns: 1fr 1fr; }
       .portrait img { height: 420px; }
@@ -1071,7 +1085,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div>
             <h3>What is managed services</h3>
             <div class="video-frame">
-              <iframe title="What is Managed Services" src="https://youtube.com/shorts/aCF7hXJ6K1A" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+              <iframe title="What is Managed Services" src="https://www.youtube.com/embed/aCF7hXJ6K1A?controls=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1&amp;disablekb=1&amp;fs=0&amp;iv_load_policy=3" allow="accelerometer; autoplay; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" loading="lazy"></iframe>
             </div>
           </div>
           <div>
@@ -1145,16 +1159,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <p>Working with GreatChoice Technologies has been an excellent business decision! It’s so comforting to know when you have computer and tech issues that they’re just a phone call or text away. The Greatchoice team is knowledgeable, responsive, and genuinely committed to keeping our business running smoothly. Whether it's day-to-day technical support, cybersecurity, or proactively preventing issues before they happen, they consistently deliver exceptional service. Their expertise allows us to focus on serving our clients, knowing our technology is in capable hands.</p>
             <p>I highly recommend GreatChoice Technologies to any business looking for a trusted IT partner that delivers outstanding service, reliable support, and real peace of mind.</p>
             <footer>
-              <img class="quote-photo" src="media/testimonials/lori.jpg" alt="Lori Dennis">
-              <span class="quote-id"><strong>Lori Dennis</strong><span>Dennis Insurance &amp; Payroll Solutions</span></span>
-              <img class="quote-logo" src="media/testimonials/lori-logo.jpg" alt="Dennis Insurance and Payroll Solutions">
+              <a class="quote-link" href="https://dennisinsurancesolutions.com/" target="_blank" rel="noopener">
+                <img class="quote-photo" src="media/testimonials/lori.jpg" alt="">
+                <span class="quote-id"><strong>Lori Dennis</strong><span>Dennis Insurance &amp; Payroll Solutions</span></span>
+                <img class="quote-logo" src="media/testimonials/lori-logo.jpg" alt="">
+              </a>
             </footer>
           </blockquote>
           <blockquote>
             <p>Greatchoice Technologies has been an incredible resource for all of us at Stone Creek Senior Health. Any issue we come across, new idea we want to get into place, or anything else that may come up, everyone there is always quick to respond and help us get it taken care of in a timely manner. They’re typically able to do things remotely, so our wait time is very, very minimal. Our business runs so much more efficiently and effectively since we began working with Greatchoice. You couldn’t ask for a better team.</p>
             <footer>
-              <span class="quote-id"><strong>Dara Schroader</strong><span>Stone Creek Senior Health</span></span>
-              <img class="quote-logo" src="media/testimonials/stone-creek-logo.png" alt="Stone Creek Senior Health">
+              <a class="quote-link" href="https://stonecreekseniorhealth.com/" target="_blank" rel="noopener">
+                <span class="quote-id"><strong>Dara Schroader</strong><span>Stone Creek Senior Health</span></span>
+                <img class="quote-logo" src="media/testimonials/stone-creek-logo.png" alt="">
+              </a>
             </footer>
           </blockquote>
           <blockquote>
@@ -1162,9 +1180,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <p>Beyond fixing issues, they consistently offer smart, practical advice that helps me and my clients make better technology decisions. I can always count on them, and honestly, they make me look great in front of my clients. Having a partner this reliable gives me total peace of mind.</p>
             <p>If you're looking for a technology team that truly delivers, I can't recommend Greatchoice Technologies highly enough.</p>
             <footer>
-              <img class="quote-photo quote-photo-kelly" src="media/testimonials/kelly.jpg" alt="Kelly White">
-              <span class="quote-id"><strong>Kelly White</strong><span>KW Digital</span></span>
-              <img class="quote-logo" src="media/testimonials/kelly-logo.jpg" alt="KW Digital">
+              <a class="quote-link" href="https://www.kw.digital/" target="_blank" rel="noopener">
+                <img class="quote-photo quote-photo-kelly" src="media/testimonials/kelly.jpg" alt="">
+                <span class="quote-id"><strong>Kelly White</strong><span>KW Digital</span></span>
+                <img class="quote-logo" src="media/testimonials/kelly-logo.jpg" alt="">
+              </a>
             </footer>
           </blockquote>
           </div>
