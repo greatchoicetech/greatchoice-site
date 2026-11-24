@@ -66,6 +66,34 @@ footer.site-footer .foot-brand p a {
   font-weight: 700;
   text-decoration: none;
 }
+footer.site-footer .foot-social {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+footer.site-footer .foot-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--text);
+  text-decoration: none;
+}
+footer.site-footer .foot-social a:hover,
+footer.site-footer .foot-social a:focus-visible {
+  color: #061428;
+  background: var(--gold);
+  border-color: var(--gold);
+}
+footer.site-footer .foot-social svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
 footer.site-footer .foot-label {
   display: inline-block;
   margin: 0 0 12px;
