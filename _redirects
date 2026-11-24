@@ -1,0 +1,200 @@
+# Old pages from https://greatchoice.com/page-sitemap.xml
+# A 301 sends the old address to the page that replaced it.
+# Pages under the 404 note have no new page. They are not redirected.
+# Workers ignores a 404 status in this file, so those addresses return 404.
+# Serve site/404.html by setting assets.not_found_handling to 404-page.
+
+/360-google-virtual-tours /it-services/360-virtual-tours/ 301
+/360-google-virtual-tours/ /it-services/360-virtual-tours/ 301
+/about-us /about-greatchoice-technologies/ 301
+/about-us/ /about-greatchoice-technologies/ 301
+/auto-dealership-voip /it-services/communication/ 301
+/auto-dealership-voip/ /it-services/communication/ 301
+/business-voip-phones-gainesville /service-areas/alachua-county/gainesville/business-phones/ 301
+/business-voip-phones-gainesville/ /service-areas/alachua-county/gainesville/business-phones/ 301
+/business-voip-phones-ocala /service-areas/marion-county/ocala/business-phones/ 301
+/business-voip-phones-ocala/ /service-areas/marion-county/ocala/business-phones/ 301
+/business-voip-phones-the-villages /service-areas/sumter-county/the-villages/business-phones/ 301
+/business-voip-phones-the-villages/ /service-areas/sumter-county/the-villages/business-phones/ 301
+/car-dealership-phones-in-ocala /service-areas/marion-county/ocala/business-phones/ 301
+/car-dealership-phones-in-ocala/ /service-areas/marion-county/ocala/business-phones/ 301
+/central-florida-healthcare-it /industries/medical/ 301
+/central-florida-healthcare-it/ /industries/medical/ 301
+/cloudflare-authorized-reseller /it-services/cybersecurity/ 301
+/cloudflare-authorized-reseller/ /it-services/cybersecurity/ 301
+/computer-services-belleview-fl /service-areas/marion-county/belleview/ 301
+/computer-services-belleview-fl/ /service-areas/marion-county/belleview/ 301
+/computer-services-the-villages-fl /service-areas/sumter-county/the-villages/ 301
+/computer-services-the-villages-fl/ /service-areas/sumter-county/the-villages/ 301
+/contact-greatchoice /about-greatchoice-technologies/ 301
+/contact-greatchoice/ /about-greatchoice-technologies/ 301
+/cybersecurity-risk-assessment /it-services/cybersecurity/ 301
+/cybersecurity-risk-assessment/ /it-services/cybersecurity/ 301
+/cybersecurity-solutions-in-ocala /service-areas/marion-county/ocala/cybersecurity/ 301
+/cybersecurity-solutions-in-ocala/ /service-areas/marion-county/ocala/cybersecurity/ 301
+/door-access-2 /it-services/security-systems/ 301
+/door-access-2/ /it-services/security-systems/ 301
+/florida-business-phones-systems /it-services/communication/ 301
+/florida-business-phones-systems/ /it-services/communication/ 301
+/florida-technical-support /it-services/managed-it/ 301
+/florida-technical-support/ /it-services/managed-it/ 301
+/gainesville-managed-it-services /service-areas/alachua-county/gainesville/managed-it-services/ 301
+/gainesville-managed-it-services/ /service-areas/alachua-county/gainesville/managed-it-services/ 301
+/gainesville-voip /service-areas/alachua-county/gainesville/business-phones/ 301
+/gainesville-voip/ /service-areas/alachua-county/gainesville/business-phones/ 301
+/healthcare-phones-in-ocala /service-areas/marion-county/ocala/business-phones/ 301
+/healthcare-phones-in-ocala/ /service-areas/marion-county/ocala/business-phones/ 301
+/hvac-phones-in-ocala /service-areas/marion-county/ocala/business-phones/ 301
+/hvac-phones-in-ocala/ /service-areas/marion-county/ocala/business-phones/ 301
+/industries-we-serve /industries/ 301
+/industries-we-serve/ /industries/ 301
+/law-office-phones-in-ocala /service-areas/marion-county/ocala/business-phones/ 301
+/law-office-phones-in-ocala/ /service-areas/marion-county/ocala/business-phones/ 301
+/ocala-business-phones /service-areas/marion-county/ocala/business-phones/ 301
+/ocala-business-phones/ /service-areas/marion-county/ocala/business-phones/ 301
+/ocala-cloud-computing /it-services/cloud-solutions/ 301
+/ocala-cloud-computing/ /it-services/cloud-solutions/ 301
+/ocala-data-backup-and-recovery-services /service-areas/marion-county/ocala/managed-it-services/ 301
+/ocala-data-backup-and-recovery-services/ /service-areas/marion-county/ocala/managed-it-services/ 301
+/ocala-healthcare-it-solutions /industries/medical/ 301
+/ocala-healthcare-it-solutions/ /industries/medical/ 301
+/ocala-technical-support /service-areas/marion-county/ocala/ 301
+/ocala-technical-support/ /service-areas/marion-county/ocala/ 301
+/ocala-voip /service-areas/marion-county/ocala/business-phones/ 301
+/ocala-voip/ /service-areas/marion-county/ocala/business-phones/ 301
+/ocala-website-design-seo-services /service-areas/marion-county/ocala/digital-marketing/ 301
+/ocala-website-design-seo-services/ /service-areas/marion-county/ocala/digital-marketing/ 301
+/office-365 /it-services/cloud-solutions/ 301
+/office-365/ /it-services/cloud-solutions/ 301
+/pci-compliance-in-ocala /service-areas/marion-county/ocala/cybersecurity/ 301
+/pci-compliance-in-ocala/ /service-areas/marion-county/ocala/cybersecurity/ 301
+/schedule-a-30-minute-chat https://api.leadconnectorhq.com/widget/booking/knDTnqJZpvZN2nWfcEH5 301
+/schedule-a-30-minute-chat/ https://api.leadconnectorhq.com/widget/booking/knDTnqJZpvZN2nWfcEH5 301
+/security-systems-in-ocala /service-areas/marion-county/ocala/security-systems/ 301
+/security-systems-in-ocala/ /service-areas/marion-county/ocala/security-systems/ 301
+/technology-services-gainesville-fl /service-areas/alachua-county/gainesville/ 301
+/technology-services-gainesville-fl/ /service-areas/alachua-county/gainesville/ 301
+/technology-services-ocala-fl /service-areas/marion-county/ocala/ 301
+/technology-services-ocala-fl/ /service-areas/marion-county/ocala/ 301
+/voip-for-government /it-services/communication/ 301
+/voip-for-government/ /it-services/communication/ 301
+/voip-for-healthcare /it-services/communication/ 301
+/voip-for-healthcare/ /it-services/communication/ 301
+/voip-for-hospitality /it-services/communication/ 301
+/voip-for-hospitality/ /it-services/communication/ 301
+/voip-for-hvac /it-services/communication/ 301
+/voip-for-hvac/ /it-services/communication/ 301
+/voip-for-law-offices /it-services/communication/ 301
+/voip-for-law-offices/ /it-services/communication/ 301
+/voip-for-property-managers /it-services/communication/ 301
+/voip-for-property-managers/ /it-services/communication/ 301
+/voip-for-real-estate /it-services/communication/ 301
+/voip-for-real-estate/ /it-services/communication/ 301
+/voip-pricing-plans /it-services/communication/ 301
+/voip-pricing-plans/ /it-services/communication/ 301
+/voip-products /it-services/communication/ 301
+/voip-products/ /it-services/communication/ 301
+/voip-solutions-for-business /it-services/communication/ 301
+/voip-solutions-for-business/ /it-services/communication/ 301
+/web-essentials-for-ocala-business /service-areas/marion-county/ocala/digital-marketing/ 301
+/web-essentials-for-ocala-business/ /service-areas/marion-county/ocala/digital-marketing/ 301
+/what-is-voip /it-services/communication/ 301
+/what-is-voip/ /it-services/communication/ 301
+
+# 404. No new page. Left unredirected on purpose.
+# /accessibility-statement/
+# /advantages-of-voip/
+# /auto-attendant/
+# /boca-raton-voip/
+# /careers/
+# /cart/
+# /checkout/
+# /computer-services-lady-lake-fl/
+# /different-types-of-codecs-2/
+# /fax-to-email/
+# /fax-work-in-voip/
+# /fort-lauderdale-voip/
+# /fort-myers-voip/
+# /hosted-pbx-vs-on-premise/
+# /how-can-i-get-a-free-pbx/
+# /how-to-host-a-webinar/
+# /internet-services/
+# /ip-phone-mac-address/
+# /jacksonville-voip/
+# /learn-about-voip-gateways-2/
+# /miami-voip/
+# /my-account/
+# /naples-voip/
+# /ocala-crm/
+# /ocala-crm-ai-powered-videos/
+# /orlando-voip/
+# /pbx-vs-pabx/
+# /pfd-sharing-in-online-meetings/
+# /privacy-policy/
+# /shop/
+# /sip-methods-2/
+# /sip-response-codes/
+# /tallahassee-voip/
+# /tampa-voip/
+# /technical-support-miami-fl/
+# /technology-services-boca-raton-fl/
+# /technology-services-fort-lauderdale-fl/
+# /technology-services-fort-myers-fl/
+# /technology-services-jacksonville-fl/
+# /technology-services-naples-fl/
+# /technology-services-orlando-fl/
+# /technology-services-tallahassee-fl/
+# /technology-services-tampa-fl/
+# /technology-services-west-palm-beach-fl/
+# /terms-of-service/
+# /types-of-sip-and-voip-phones/
+# /west-palm-beach-voip/
+# /what-are-ip-phones/
+# /what-are-sip-phones-2/
+# /what-are-sip-trunks-2/
+# /what-are-the-benefits-of-encryption-2/
+# /what-does-enum-mean/
+# /what-do-fxs-and-fxo-mean/
+# /what-is-acd/
+# /what-is-a-cloud-contact-center/
+# /what-is-a-cloud-pbx/
+# /what-is-a-hosted-pbx/
+# /what-is-a-hosted-phone-system/
+# /what-is-alg-2/
+# /what-is-an-online-whiteboard-2/
+# /what-is-a-pbx-phone-system-2/
+# /what-is-a-sip-server-2/
+# /what-is-a-sip-uri-2/
+# /what-is-a-stun-server-2/
+# /what-is-a-t38-fax/
+# /what-is-a-tdm-pbx/
+# /what-is-a-virtual-call-center/
+# /what-is-a-virtual-pbx/
+# /what-is-a-virtual-phone-system/
+# /what-is-a-voicemail-system/
+# /what-is-a-vp8-2/
+# /what-is-blf/
+# /what-is-desktop-sharing-2/
+# /what-is-did/
+# /what-is-dtls-2/
+# /what-is-echo-cancellation-2/
+# /what-is-foip/
+# /what-is-h-323/
+# /what-is-intercom-and-paging/
+# /what-is-ip-telephony-2/
+# /what-is-ivr/
+# /what-is-pri/
+# /what-is-pstn-2/
+# /what-is-rcs-messaging/
+# /what-is-rtcp/
+# /what-is-rtp/
+# /what-is-sdp/
+# /what-is-sip-2/
+# /what-is-sip-forking-2/
+# /what-is-srtp-2/
+# /what-is-unified-communication/
+# /what-is-voicemail-to-email/
+# /what-is-voice-over-ip-2/
+# /what-is-web-conferencing-2/
+# /what-is-webrtc-2/
+# /why-use-remote-desktop/
