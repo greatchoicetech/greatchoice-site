@@ -346,32 +346,47 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
     .proof {
       display: grid;
-      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      grid-template-columns: 1.7fr repeat(4, minmax(0, 1fr));
       align-items: center;
-      gap: 18px;
-      padding: 18px 8px 22px;
+      gap: 14px 16px;
+      padding: 16px 0 18px;
     }
     .award {
       display: flex;
       align-items: center;
-      gap: 18px;
+      gap: 14px;
     }
     .award img {
-      width: 148px;
-      height: 148px;
+      width: 84px;
+      height: 84px;
       object-fit: contain;
       flex: none;
     }
-    .award p { margin: 0; color: var(--text); font-size: 18px; }
-    .award strong { display: block; font-size: 22px; letter-spacing: -0.03em; }
-    .proof .stat { margin: 0; color: var(--muted); font-size: 16px; }
+    .award p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.35; }
+    .award strong { display: block; color: var(--text); font-size: 18px; letter-spacing: -0.02em; }
+    .proof .stat {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.35;
+    }
     .proof .stat b {
       display: block;
       color: var(--text);
-      font-size: 28px;
+      font-size: 16px;
       font-weight: 700;
-      letter-spacing: -0.03em;
+      letter-spacing: -0.02em;
     }
+    .stat-icon {
+      width: 32px;
+      height: 32px;
+      flex: none;
+      color: var(--gold);
+    }
+    .stat-icon svg { display: block; width: 100%; height: 100%; }
     .quiz-cta {
       display: flex;
       width: 100%;
@@ -806,6 +821,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       background: #000;
     }
 
+    @media (max-width: 1279px) {
+      .proof { grid-template-columns: 1fr 1fr; }
+      .proof .award { grid-column: 1 / -1; }
+    }
     @media (max-width: 980px) {
       .hero-grid, .split, .visit, .steps, .different { grid-template-columns: 1fr; }
       .service-grid, .expect-grid { grid-template-columns: 1fr 1fr; }
@@ -842,7 +861,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       .tour-frame iframe { height: 420px; }
       .quiz-cta { width: 100%; }
       .places a { font-size: 18px; }
-      .award img { width: 168px; height: 168px; }
+      .award img { width: 84px; height: 84px; }
       .hero-grid { padding-top: 36px; gap: 28px; }
       section { padding: 64px 0; }
       .visit { padding: 24px; }
@@ -906,10 +925,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="wide hero-grid">
         <div>
           <p class="kicker">Managed service provider · Ocala, Florida</p>
-          <h1>Managed IT services you can trust</h1>
-          <p class="lead">One local team looks after the computers, phones, email, security, and website, so you can stay focused on the business. We watch for problems and fix them before your team feels them.</p>
+          <h1>All Your Tech Under One Local Roof</h1>
+          <p class="lead">Managed IT, cybersecurity, phones, Microsoft 365, marketing, virtual tours, and physical security systems all handled by one team in Ocala.</p>
           <div class="hero-actions">
-            <a class="btn btn-gold" href="#visit">Free technology analysis</a>
+            <a class="btn btn-gold" href="https://api.leadconnectorhq.com/widget/booking/knDTnqJZpvZN2nWfcEH5" target="_blank" rel="noopener">Free technology analysis</a>
             <a class="btn btn-ghost" href="tel:+13523013016">Call 352-301-3016</a>
           </div>
           <ul class="places">
@@ -946,9 +965,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <img src="media/352Silver 300x300.webp" alt="Best of the 352 2026 silver award">
           <p><strong>Best of the 352</strong> 2026 Silver in IT and technical services</p>
         </div>
-        <p class="stat"><b>Certified</b> technicians</p>
-        <p class="stat"><b>24/7</b> monitoring</p>
-        <p class="stat"><b>Since 2015</b> privately owned in Ocala</p>
+        <p class="stat">
+          <span class="stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></span>
+          <span><b>Cloudflare certified</b> Cybersecurity</span>
+        </p>
+        <p class="stat">
+          <span class="stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg></span>
+          <span><b>35+ years</b> Technology experience</span>
+        </p>
+        <p class="stat">
+          <span class="stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M8 12h8"/></svg></span>
+          <span><b>CompTIA CHIT</b> Healthcare IT Technician</span>
+        </p>
+        <p class="stat">
+          <span class="stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.2"/></svg></span>
+          <span><b>Since 2015</b> Privately owned in Ocala</span>
+        </p>
       </div>
     </div>
 
@@ -1044,7 +1076,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <div>
             <h3>Your local business technology partner</h3>
-            <p>Greatchoice Technologies is a privately owned managed IT services company headquartered in Ocala, Florida. Started in 2010 by former Vonage Lead Technical Instructor, Evan Meyerberg, we have helped small and midsized businesses manage, secure, and improve the technology they rely on every day. We manage the technology that keeps your business secure, connected, productive, and growing.</p>
+            <p>Greatchoice Technologies is a privately owned managed IT services company headquartered in Ocala, Florida. Serving Ocala and North Central Florida since 2015. Started by former Vonage Lead Technical Instructor, Evan Meyerberg, we have helped small and midsized businesses manage, secure, and improve the technology they rely on every day. We manage the technology that keeps your business secure, connected, productive, and growing.</p>
             <ul class="ticks">
               <li>Local, in-house support, not an anonymous national call center</li>
               <li>One accountable technology partner</li>
