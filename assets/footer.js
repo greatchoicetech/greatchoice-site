@@ -5,8 +5,11 @@
   var root = attr.replace(/assets\/footer\.js(?:\?.*)?$/i, "");
 
   function u(path) {
-    if (path.charAt(0) === "#") return root + "index.html" + path;
-    return root + path;
+    if (path.charAt(0) === "#") return "/" + path;
+    var clean = path.replace(/index\.html$/, "");
+    if (!clean) return "/";
+    if (clean.charAt(clean.length - 1) !== "/") clean += "/";
+    return "/" + clean.replace(/^\//, "");
   }
 
   if (!document.querySelector('link[href$="footer.css"]')) {
@@ -16,7 +19,7 @@
     document.head.appendChild(link);
   }
 
-  var shield = u("media/cropped-cropped-GTC-Sheild-HD-V2-192x192.png");
+  var shield = root + "media/cropped-cropped-GTC-Sheild-HD-V2-192x192.png";
   var html = ''
     + '<footer class="site-footer">'
     + '<div class="wrap site-foot">'
